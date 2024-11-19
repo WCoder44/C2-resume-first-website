@@ -1,0 +1,167 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F3F3E0, #133E87, #608BC1, #CBDCEB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {
+  background-color: #f8f9fa;
+}
+
+
+.good-font1 {
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white
+}
+
+.good-font {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: white;
+}
+
+.good-fontb {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: black;
+}
+
+.good-font1b {
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+#beginning{
+    height: 100vh;
+}
+
+.hacker-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%
+}
+
+.mountain-image{
+  height: 210px;
+  width: 210px;
+}
+
+.border-bottom{
+  padding:0%;
+  margin:0%;
+}
+
+.arrow{
+  margin-bottom: 100px;
+  margin-top: 0px;
+  width: 150px;
+  height: 150px;
+
+}
+
+h2 {
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+.under-myskills{
+  display: flex;
+  justify-items: flex-start;
+  background-color: #fff;
+  margin: 30px;
+}
+
+h3 {
+  font-family: "Host Grotesk", sans-serif;
+  font-size: large;
+  font-weight: 350;
+  font-style: normal;
+  color: black;
+  margin-top: 40px;
+  float: left;
+  margin-left: 50%;
+}
+
+.block-thing{
+  display: inline-block;
+  height: 300px;
+  width: 700px;
+}
+
+.bro{
+  margin-left: 23%;
+}
+
+.background-color{
+  background-color:#fff;
+}
+
+#jumbotron{
+  background-color: #fff;
+}
+
+.under-myskills1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.good-font2b{
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  display: inline-block;
+
+}
+
+.inline-block{
+  display: inline-block
+}
+
+#footer{
+  background-color:#f8f9fa;
+}
+
+.speed-png{
+  margin-left: 300px;
+}
+
+.cpu-png{
+  margin-left: 100px;
+}
+
+#info{
+  background-color: #f8f9fa;
+}
+
+.info-background-color{
+  background-color: white;
+}
